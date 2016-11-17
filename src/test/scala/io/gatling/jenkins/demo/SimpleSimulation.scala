@@ -17,5 +17,5 @@ class SimpleSimulation extends Simulation {
       atOnceUsers(1)))
     .protocols(httpProtocol)assertions(
   global.responseTime.max.lt(50),
-  global.successfulRequests.percent.gt(95)
+  global.successfulRequests.percent.gt(95))
 }
